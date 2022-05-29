@@ -26,12 +26,12 @@
 <section>
 	<h2>Get the Scale</h2>
 		<form on:submit|preventDefault={handleInput}>
-			<select>
+			<select class="px-4 py-3 rounded-full">
 				{#each chromaticScale as tonic, idx (idx)}
 					<option value={tonic} name="tonic">{tonic}</option>
 				{/each}
 			</select>
-			<select>
+			<select class="form-select px-4 py-3 rounded-full">
 				{#each scales as scale, idx (idx)}
 					<option value={scale} name="type">{scale}</option>
 				{/each}
@@ -47,5 +47,8 @@
 	}
 	.selected-scale {
 		font-weight: 700;
+	}
+	input[type="submit"]:hover {
+		cursor: pointer;
 	}
 </style>

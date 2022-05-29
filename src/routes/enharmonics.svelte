@@ -2,7 +2,7 @@
 
 	import { getEnharmonicEquivalent  } from '$lib/helpers';
 	const chromaticScale = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
-	let selectedTonic = 'C';
+	let selectedTonic = 'C';			
 	const handleChange = (e: Event) => {
 		const target = e.target as HTMLOptionElement;
 		selectedTonic = getEnharmonicEquivalent(target.value);
