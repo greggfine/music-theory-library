@@ -2,4 +2,5 @@
     <a class="mx-4 text-lg" href="/">Home</a>
     <a class="mx-4 text-lg" href="/enharmonics">Enharmonics</a>
     <a class="mx-4 text-lg" href="/scales">Scales</a>
+    <a class="mx-4 text-lg" href="/tailwindtester">TW</a>
 </nav>

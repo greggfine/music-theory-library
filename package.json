@@ -1,6 +1,10 @@
 {
-	"name": "Music-Theory-Library",
-	"version": "0.0.1",
+	"name": "euphonic",
+	"version": "0.0.6",
+	"license": "MIT",
+	"exports": {
+		".": "./helpers.js"
+	},
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
